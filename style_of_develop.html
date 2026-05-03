@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <style>
+    /* General Page Styling */
+    body {
+      font-family: 'Kantumruy Pro', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #007bff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    /* Book/Project Cards */
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #007bff;
+    }
+    .card ul, .card ol {
+      margin-left: 20px;
+    }
+
+    /* Table Styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #007bff;
+      color: white;
+    }
+    tfoot td {
+      background-color: #f1f1f1;
+      font-weight: bold;
+    }
+
+    /* Images */
+    img {
+      border-radius: 6px;
+      margin: 10px;
+      transition: transform 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to My Portfolio</h1>
+</header>
+
+<nav>
+  <a href="#about">About Me</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello! I’m building my portfolio to showcase my work and learning journey. I enjoy reading, problem solving, and creating projects that help people learn and grow.</p>
+</section>
+
+<section id="projects">
+  <h2>My Projects</h2>
+
+  <div class="card">
+    <h3>Book Project 1</h3>
+    <p>Description: To improve daily life and make a good life.</p>
+    <ul>
+      <li>Learn in real-life situations</li>
+      <li>Problem solving when sad</li>
+      <li>Learn to be patient</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Book Project 2</h3>
+    <p>Description: A great book for learning new skills.</p>
+    <ol>
+      <li>Learn gradually</li>
+      <li>Practice a bit each day</li>
+      <li>Track your progress</li>
+    </ol>
+  </div>
+
+  <table>
+    <tr>
+      <th>Product Name</th>
+      <th>Number</th>
+      <th>Total Price</th>
+    </tr>
+    <tr>
+      <td>Book 1</td>
+      <td>2</td>
+      <td>$20</td>
+    </tr>
+    <tr>
+      <td>Book 2</td>
+      <td>3</td>
+      <td>$30</td>
+    </tr>
+    <tfoot>
+      <tr>
+        <td colspan="3">Thank you for visiting my portfolio!</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:info@mylibrary.com">info@mylibrary.com</a></p>
+  <p>Follow my work:</p>
+  <a href="about_us.html">About Us</a>
+  <a href="page.html">Page</a>
+  <br>
+  <img src="../image/reading_photo.jpg" alt="Book 1" width="150">
+  <img src="../image/reading1_photo.jpg" alt="Book 2" width="150">
+</section>
+
+<footer>
+  <p>&copy; 2026 My Portfolio</p>
+</footer>
+
+</body>
+</html>
